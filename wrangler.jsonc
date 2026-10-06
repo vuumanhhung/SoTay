@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "so-tay-hoc-tap",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "so-tay-hoc-tap",
+    "database_id": "REPLACE_WITH_YOUR_DATABASE_ID",
+    "migrations_dir": "migrations"
+  }]
+}
